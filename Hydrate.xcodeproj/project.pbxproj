@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21E017D46B9DF167816E34F6 /* Pods_Hydrate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61D7B8B4C2D8999AC7ACE5E5 /* Pods_Hydrate.framework */; };
+		FFF669D91AFAC78C00052680 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF669D81AFAC78C00052680 /* AppDelegate.swift */; };
+		FFF669DB1AFAC78C00052680 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF669DA1AFAC78C00052680 /* ViewController.swift */; };
+		FFF669DE1AFAC78C00052680 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFF669DC1AFAC78C00052680 /* Main.storyboard */; };
+		FFF669E01AFAC78C00052680 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFF669DF1AFAC78C00052680 /* Images.xcassets */; };
+		FFF669E31AFAC78C00052680 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFF669E11AFAC78C00052680 /* LaunchScreen.xib */; };
+		FFF669EF1AFAC78C00052680 /* WeightLossCalulatorSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF669EE1AFAC78C00052680 /* WeightLossCalulatorSwiftTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFF669E91AFAC78C00052680 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFF669CB1AFAC78C00052680 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFF669D21AFAC78C00052680;
+			remoteInfo = WeightLossCalulatorSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		61D7B8B4C2D8999AC7ACE5E5 /* Pods_Hydrate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hydrate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEB54BE23C606D9BA850205A /* Pods-Hydrate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hydrate.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hydrate/Pods-Hydrate.release.xcconfig"; sourceTree = "<group>"; };
+		CB5C26BD3D7B7D2F65FD21C7 /* Pods-Hydrate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hydrate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hydrate/Pods-Hydrate.debug.xcconfig"; sourceTree = "<group>"; };
+		FFF669D31AFAC78C00052680 /* Hydrate.temp_caseinsensitive_rename.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hydrate.temp_caseinsensitive_rename.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFF669D71AFAC78C00052680 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFF669D81AFAC78C00052680 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFF669DA1AFAC78C00052680 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FFF669DD1AFAC78C00052680 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFF669DF1AFAC78C00052680 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FFF669E21AFAC78C00052680 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FFF669E81AFAC78C00052680 /* Hydrate.temp_caseinsensitive_rename.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hydrate.temp_caseinsensitive_rename.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFF669ED1AFAC78C00052680 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFF669EE1AFAC78C00052680 /* WeightLossCalulatorSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightLossCalulatorSwiftTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFF669D01AFAC78C00052680 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21E017D46B9DF167816E34F6 /* Pods_Hydrate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF669E51AFAC78C00052680 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87A61085243773612C026EE6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB5C26BD3D7B7D2F65FD21C7 /* Pods-Hydrate.debug.xcconfig */,
+				BEB54BE23C606D9BA850205A /* Pods-Hydrate.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B3235D51283E885A29FB88BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61D7B8B4C2D8999AC7ACE5E5 /* Pods_Hydrate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FFF669CA1AFAC78C00052680 = {
+			isa = PBXGroup;
+			children = (
+				FFF669D51AFAC78C00052680 /* Hydrate */,
+				FFF669EB1AFAC78C00052680 /* Hydrate */,
+				FFF669D41AFAC78C00052680 /* Products */,
+				87A61085243773612C026EE6 /* Pods */,
+				B3235D51283E885A29FB88BF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FFF669D41AFAC78C00052680 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFF669D31AFAC78C00052680 /* Hydrate.temp_caseinsensitive_rename.app */,
+				FFF669E81AFAC78C00052680 /* Hydrate.temp_caseinsensitive_rename.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFF669D51AFAC78C00052680 /* Hydrate */ = {
+			isa = PBXGroup;
+			children = (
+				FFF669D81AFAC78C00052680 /* AppDelegate.swift */,
+				FFF669DA1AFAC78C00052680 /* ViewController.swift */,
+				FFF669DC1AFAC78C00052680 /* Main.storyboard */,
+				FFF669DF1AFAC78C00052680 /* Images.xcassets */,
+				FFF669E11AFAC78C00052680 /* LaunchScreen.xib */,
+				FFF669D61AFAC78C00052680 /* Supporting Files */,
+			);
+			name = Hydrate;
+			path = WeightLossCalulatorSwift;
+			sourceTree = "<group>";
+		};
+		FFF669D61AFAC78C00052680 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFF669D71AFAC78C00052680 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FFF669EB1AFAC78C00052680 /* Hydrate */ = {
+			isa = PBXGroup;
+			children = (
+				FFF669EE1AFAC78C00052680 /* WeightLossCalulatorSwiftTests.swift */,
+				FFF669EC1AFAC78C00052680 /* Supporting Files */,
+			);
+			name = Hydrate;
+			path = WeightLossCalulatorSwiftTests;
+			sourceTree = "<group>";
+		};
+		FFF669EC1AFAC78C00052680 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFF669ED1AFAC78C00052680 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFF669D21AFAC78C00052680 /* Hydrate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFF669F21AFAC78C00052680 /* Build configuration list for PBXNativeTarget "Hydrate" */;
+			buildPhases = (
+				50D9D905CA3BEF3BFE279ED8 /* Check Pods Manifest.lock */,
+				FFF669CF1AFAC78C00052680 /* Sources */,
+				FFF669D01AFAC78C00052680 /* Frameworks */,
+				FFF669D11AFAC78C00052680 /* Resources */,
+				FB66FC3714F0465F3804BAF8 /* Embed Pods Frameworks */,
+				A658373F0972DB9E7DD30A24 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hydrate;
+			productName = WeightLossCalulatorSwift;
+			productReference = FFF669D31AFAC78C00052680 /* Hydrate.temp_caseinsensitive_rename.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFF669E71AFAC78C00052680 /* HydrateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFF669F51AFAC78C00052680 /* Build configuration list for PBXNativeTarget "HydrateTests" */;
+			buildPhases = (
+				FFF669E41AFAC78C00052680 /* Sources */,
+				FFF669E51AFAC78C00052680 /* Frameworks */,
+				FFF669E61AFAC78C00052680 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFF669EA1AFAC78C00052680 /* PBXTargetDependency */,
+			);
+			name = HydrateTests;
+			productName = WeightLossCalulatorSwiftTests;
+			productReference = FFF669E81AFAC78C00052680 /* Hydrate.temp_caseinsensitive_rename.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFF669CB1AFAC78C00052680 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0710;
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Ross McIlwaine";
+				TargetAttributes = {
+					FFF669D21AFAC78C00052680 = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 8859BW6G67;
+					};
+					FFF669E71AFAC78C00052680 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = FFF669D21AFAC78C00052680;
+					};
+				};
+			};
+			buildConfigurationList = FFF669CE1AFAC78C00052680 /* Build configuration list for PBXProject "Hydrate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFF669CA1AFAC78C00052680;
+			productRefGroup = FFF669D41AFAC78C00052680 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFF669D21AFAC78C00052680 /* Hydrate */,
+				FFF669E71AFAC78C00052680 /* HydrateTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFF669D11AFAC78C00052680 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF669DE1AFAC78C00052680 /* Main.storyboard in Resources */,
+				FFF669E31AFAC78C00052680 /* LaunchScreen.xib in Resources */,
+				FFF669E01AFAC78C00052680 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF669E61AFAC78C00052680 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50D9D905CA3BEF3BFE279ED8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A658373F0972DB9E7DD30A24 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hydrate/Pods-Hydrate-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB66FC3714F0465F3804BAF8 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hydrate/Pods-Hydrate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFF669CF1AFAC78C00052680 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF669DB1AFAC78C00052680 /* ViewController.swift in Sources */,
+				FFF669D91AFAC78C00052680 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF669E41AFAC78C00052680 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF669EF1AFAC78C00052680 /* WeightLossCalulatorSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFF669EA1AFAC78C00052680 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFF669D21AFAC78C00052680 /* Hydrate */;
+			targetProxy = FFF669E91AFAC78C00052680 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FFF669DC1AFAC78C00052680 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFF669DD1AFAC78C00052680 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFF669E11AFAC78C00052680 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFF669E21AFAC78C00052680 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFF669F01AFAC78C00052680 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ross McIlwaine (67UVAY7H6P)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ross McIlwaine (67UVAY7H6P)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FFF669F11AFAC78C00052680 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Ross McIlwaine";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ross McIlwaine";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFF669F31AFAC78C00052680 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB5C26BD3D7B7D2F65FD21C7 /* Pods-Hydrate.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = WeightLossCalulatorSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RossMcIlwaine.WeightLossCalulatorSwift;
+				PRODUCT_NAME = Hydrate.temp_caseinsensitive_rename;
+			};
+			name = Debug;
+		};
+		FFF669F41AFAC78C00052680 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEB54BE23C606D9BA850205A /* Pods-Hydrate.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = WeightLossCalulatorSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RossMcIlwaine.WeightLossCalulatorSwift;
+				PRODUCT_NAME = Hydrate.temp_caseinsensitive_rename;
+			};
+			name = Release;
+		};
+		FFF669F61AFAC78C00052680 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WeightLossCalulatorSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RossMcIlwaine.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = Hydrate.temp_caseinsensitive_rename;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hydrate.temp_caseinsensitive_rename.app/Hydrate.temp_caseinsensitive_rename";
+			};
+			name = Debug;
+		};
+		FFF669F71AFAC78C00052680 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WeightLossCalulatorSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RossMcIlwaine.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = Hydrate.temp_caseinsensitive_rename;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hydrate.temp_caseinsensitive_rename.app/Hydrate.temp_caseinsensitive_rename";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFF669CE1AFAC78C00052680 /* Build configuration list for PBXProject "Hydrate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF669F01AFAC78C00052680 /* Debug */,
+				FFF669F11AFAC78C00052680 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFF669F21AFAC78C00052680 /* Build configuration list for PBXNativeTarget "Hydrate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF669F31AFAC78C00052680 /* Debug */,
+				FFF669F41AFAC78C00052680 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFF669F51AFAC78C00052680 /* Build configuration list for PBXNativeTarget "HydrateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF669F61AFAC78C00052680 /* Debug */,
+				FFF669F71AFAC78C00052680 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFF669CB1AFAC78C00052680 /* Project object */;
+}
